@@ -6,5 +6,5 @@
         console.log(albumField);
         console.log(ratingField);
         var returnString = "Artist: " +  artistField + "   " + " Album: " + albumField + "   " + " Rating: " +ratingField;
-        document.getElementById("displassy_message").innerHTML = returnString;
+        return document.getElementById("display_message").innerHTML = returnString;
     }
