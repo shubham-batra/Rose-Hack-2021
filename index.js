@@ -1,4 +1,4 @@
-const myArray = new Array();
+myArray = new Array();
 var numberList = 0; // Album Increment
 
     function showMessage(){ 
@@ -17,7 +17,7 @@ var numberList = 0; // Album Increment
 
     function deleteAlbum() {
         var numberField = document.getElementById("numberfield").value;
-        delete myArray[numberField-1];
+        myArray.splice(numberField-1, 1); // Delete element here
         document.getElementById("display_message").innerHTML = "";
         printArray();        
 
