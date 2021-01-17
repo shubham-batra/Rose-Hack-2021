@@ -28,3 +28,9 @@ var numberList = 0; // Album Increment
         for (i = 0; i < myArray.length; i++)
             document.getElementById("display_message").innerHTML += myArray[i];
     }
+
+    function sortHighLow() { // Sort from highest rating to lowest rating
+        myArray.sort((a, b) => (a.ratingField > b.ratingField) ? 1 : -1)
+        document.getElementById("display_message").innerHTML = "";
+        printArray(); 
+    }
