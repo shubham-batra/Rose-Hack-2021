@@ -1,5 +1,34 @@
-<body>
-<h1>
+<!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="./StyleSheet.css">
+
+  <script type="text/javascript" src="index.js"></script>
+
+<!--The main HTML Code-->
+
+<html>
+    <body style ="background-color:powderblue;"></body>
+    <section>
+        <h1>
  Music Database
-</h1>
-</body>
+        </h1>
+    </section>
+
+
+<h2 style="font-size: 40px;">
+    Introduction
+</h2>
+<p style="font-size: 20px">
+    You can use this website to sort music. Add your music below.
+</p>
+
+
+
+<input type="text" placeholder="artist" id="artistfield">
+<input type="text" placeholder="album" id="albumfield">
+<input type="text" placeholder="rating" id="ratingfield">
+
+<button onclick=showMessage();> Submit</button> 
+<p> <span id = "display_message"></span> </p>
+
+
+</html>
