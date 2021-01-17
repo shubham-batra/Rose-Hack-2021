@@ -1,11 +1,14 @@
 <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="./StyleSheet.css">
 
+<!-- The link to JavaScript-->
+
   <script type="text/javascript" src="index.js"></script>
 
 <!--The main HTML Code-->
 
 <html>
+    <!-- The color of the website-->
     <body style ="background-color:powderblue;"></body>
     <section>
         <h1>
@@ -18,7 +21,7 @@
     Introduction
 </h2>
 <p style="font-size: 20px">
-    You can use this website to sort music. Add your music below.
+    You can use this website to keep track of and sort music. Add your music below.
 </p>
 
 
@@ -28,8 +31,17 @@
 
 
 <button onclick= showMessage();> Submit</button> 
-<p> <span id = "display_message"></span> </p>
 
+
+<p style="font-size: 20px">
+    To delete an album, simply enter the list number of the album you would like to delete.
+</p>
+
+<input type="text" placeholder="number" id="numberfield">
+<button onclick= deleteAlbum();> Submit</button> 
+
+<!-- Prints out the list of albums-->
+<p> <span id = "display_message"></span> </p>
 
 
 
