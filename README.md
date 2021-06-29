@@ -22,10 +22,12 @@ Backend:
 
 ## Version History
 
+## Version 0.45 (6/28/2021)
+- Can now delete database, can use help statement to see all visble commmands
+
 ## Version 0.4 (6/24/2021)
 - Started creation of a terminal version
 - Can currently add music to the notepad database 
-
 
 ## Version 0.2 (1/17/2021)
 - Created website
